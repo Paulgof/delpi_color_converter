@@ -27,7 +27,7 @@ def main(rgb_color: Tuple[int] = None, hex_color: int = None, reverse: int = Non
 if __name__ == '__main__':
     command_line_parser = argparse.ArgumentParser(
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        description='Консольная программа для конвертации цвета RGB или HEX в Pascal Color (TColor) для Инфоклиники',
+        description='Консольная программа для конвертации цвета RGB или HEX в Pascal Color (TColor)',
         epilog='''
 Пример получения Pascal Color из RGB (красный цвет):
     python3 pascal_color.py --rgb 255 0 0
